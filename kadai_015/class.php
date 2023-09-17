@@ -43,6 +43,10 @@
       print_r($apple);
       echo '<br>';
       print_r($cat);
+      echo '<br>';
+
+      $apple->show_price();
+      $cat->show_height();
       ?>
     </p>
   </body>
